@@ -1,0 +1,15 @@
+const typed = new Typed('.typed', 
+    {
+        stringsElement: '#string',
+    typeSpeed:35,
+    startDelay:300,
+    backSpeed: 45,
+    smartBackspace: true,
+    shuffle: false,
+    backDelay: 1200,
+    loop: true,
+    loopCount: false,
+    showCursor: true,
+    cursorChar: '|',
+    contentType: 'html',
+});

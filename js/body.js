@@ -2,7 +2,6 @@
 function handleScrollAnimations() {
     const subtitles = document.querySelectorAll('.subtitle');
     const paragraphs = document.querySelectorAll('.paragraph');
-    
     // Función para activar animaciones
     const activateAnimations = (elements) => {
         elements.forEach(element => {
@@ -16,14 +15,11 @@ function handleScrollAnimations() {
             }
         });
     };
-
     // Aplicar animaciones a títulos y párrafos
     activateAnimations(subtitles);
     activateAnimations(paragraphs);
 }
-
 // Detectar el evento scroll y llamar a la función
 window.addEventListener('scroll', handleScrollAnimations);
-
 // Ejecutar la función al cargar la página
 handleScrollAnimations();
