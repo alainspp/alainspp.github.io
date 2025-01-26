@@ -346,6 +346,18 @@ textarea {
     /* 2 */
 }
 
+/* SCROLL bar */
+/* ::-webkit-scrollbar {
+    width: 18Px;
+    height: 18px;
+}
+::-webkit-scrollbar-track {
+    background: #edecece9;
+}
+::-webkit-scrollbar-thumb {
+    background: #D9A91A;
+} */
+
 /* Interactive
      ========================================================================== */
 
