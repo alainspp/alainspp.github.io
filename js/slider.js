@@ -32,7 +32,7 @@
     const autoSlide = () => {
         setInterval(() => {
             changePosition(1);
-        }, 12000); // Cambia cada 5 segundos
+        }, 14000); // Cambia cada 5 segundos
     };
 
     autoSlide(); // Inicia el slider automático
